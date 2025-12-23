@@ -6,22 +6,22 @@ export default function Header({ locale = 'fr' }: { locale?: Locale }): JSX.Elem
   const t = getTranslations(locale)
   
   return (
-    <header className="bg-white shadow-md sticky top-0 z-50">
-      <div className="container mx-auto px-3 sm:px-4 py-3 sm:py-4">
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4">
+    <header className="bg-white shadow-md sticky top-0 z-50 w-full">
+      <div className="container mx-auto px-3 sm:px-4 py-2.5 sm:py-3 md:py-4 max-w-7xl">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-3 md:gap-4">
           {/* Logo et nom de l'entreprise */}
-          <div className="flex items-center space-x-2 sm:space-x-3 min-w-0">
+          <div className="flex items-center space-x-2 sm:space-x-3 min-w-0 flex-1">
             <div className="bg-primary text-white px-3 sm:px-4 md:px-6 py-1.5 sm:py-2 md:py-3 rounded-lg font-bold text-base sm:text-lg md:text-xl whitespace-nowrap flex-shrink-0">
               BRSATS
             </div>
-            <div className="text-xs sm:text-sm text-gray-600 truncate">
+            <div className="text-xs sm:text-sm text-gray-600 truncate min-w-0">
               <span className="font-semibold hidden sm:inline">{t.header.company}</span>
               <span className="font-semibold sm:hidden">{t.header.companyShort}</span>
             </div>
           </div>
           
           {/* Informations de contact */}
-          <div className="flex flex-wrap items-center gap-2 sm:gap-3 md:gap-6 text-xs sm:text-sm min-w-0">
+          <div className="flex flex-wrap items-center gap-2 sm:gap-3 md:gap-6 text-xs sm:text-sm min-w-0 w-full sm:w-auto">
             <div className="flex-shrink-0">
               <LanguageSwitcher />
             </div>
@@ -35,11 +35,11 @@ export default function Header({ locale = 'fr' }: { locale?: Locale }): JSX.Elem
             </div>
             
             {/* Email */}
-            <div className="flex items-center space-x-1 sm:space-x-2 text-gray-700 min-w-0 flex-1 sm:flex-initial">
+            <div className="flex items-center space-x-1 sm:space-x-2 text-gray-700 min-w-0 flex-1 sm:flex-initial basis-full sm:basis-auto">
               <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4 md:w-5 md:h-5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
-              <a href="mailto:contact@brsats.com" className="hover:text-primary truncate sm:break-normal text-xs sm:text-sm">contact@brsats.com</a>
+              <a href="mailto:contact@brsats.com" className="hover:text-primary truncate text-xs sm:text-sm min-w-0">contact@brsats.com</a>
             </div>
             
             {/* Site web - Masqué sur mobile */}

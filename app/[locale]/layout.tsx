@@ -14,6 +14,10 @@ export async function generateMetadata({ params }: { params: { locale: Locale } 
       : 'Système de réconciliation de bagages pour le transport aérien. Solution moderne et efficace pour la gestion des bagages.',
     keywords: 'BRSATS, réconciliation bagages, gestion bagages, transport aérien, scan codes-barres, African Transport Systems',
     authors: [{ name: 'African Transport Systems' }],
+    icons: {
+      icon: '/favicon.svg',
+      apple: '/favicon.svg',
+    },
     openGraph: {
       title: 'BRSATS - Baggage Reconciliation System',
       description: params.locale === 'en'
@@ -35,8 +39,6 @@ export default function LocaleLayout({
   return (
     <html lang={params.locale}>
       <head>
-        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="apple-touch-icon" href="/favicon.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
       </head>
       <body className="antialiased">{children}</body>

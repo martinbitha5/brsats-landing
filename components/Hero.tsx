@@ -5,19 +5,19 @@ export default function Hero({ locale = 'fr' }: { locale?: Locale }): JSX.Elemen
   const t = getTranslations(locale)
   
   return (
-    <section className="bg-secondary-dark text-white py-8 sm:py-12 md:py-20">
-      <div className="container mx-auto px-4 sm:px-6">
-        <div className="grid md:grid-cols-2 gap-8 sm:gap-12 items-center">
-          <div className="order-2 md:order-1">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 md:mb-6 leading-tight">
+    <section className="bg-secondary-dark text-white py-6 sm:py-10 md:py-16 lg:py-20 w-full overflow-hidden">
+      <div className="container mx-auto px-4 sm:px-6 max-w-7xl">
+        <div className="grid md:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
+          <div className="order-2 md:order-1 w-full">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-2 sm:mb-3 md:mb-4 lg:mb-6 leading-tight break-words">
               {t.hero.title}
             </h1>
-            <h2 className="text-lg sm:text-xl md:text-2xl mb-3 sm:mb-4 md:mb-6 text-blue-200 leading-snug">
+            <h2 className="text-base sm:text-lg md:text-xl lg:text-2xl mb-2 sm:mb-3 md:mb-4 lg:mb-6 text-blue-200 leading-snug break-words">
               {t.hero.subtitle}
             </h2>
-            <div className="text-sm sm:text-base md:text-lg mb-4 sm:mb-6 md:mb-8 text-gray-200 leading-relaxed space-y-2">
-              <p>{t.hero.description}</p>
-              <p className="text-blue-200 font-medium">{t.hero.watchVideo}</p>
+            <div className="text-sm sm:text-base md:text-lg mb-3 sm:mb-4 md:mb-6 lg:mb-8 text-gray-200 leading-relaxed space-y-2 break-words">
+              <p className="break-words">{t.hero.description}</p>
+              <p className="text-blue-200 font-medium break-words">{t.hero.watchVideo}</p>
             </div>
             <a 
               href="#fonctionnalites" 
@@ -31,9 +31,9 @@ export default function Hero({ locale = 'fr' }: { locale?: Locale }): JSX.Elemen
             </a>
           </div>
           
-          <div className="relative mt-6 sm:mt-8 md:mt-0 order-1 md:order-2">
+          <div className="relative mt-4 sm:mt-6 md:mt-0 order-1 md:order-2 w-full flex justify-center">
             {/* Phone Mockup */}
-            <div className="relative mx-auto max-w-[280px] sm:max-w-xs md:max-w-sm">
+            <div className="relative mx-auto max-w-[240px] sm:max-w-[280px] md:max-w-xs lg:max-w-sm">
               {/* Phone Frame */}
               <div className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-[3rem] p-3 shadow-2xl">
                 {/* Notch */}
