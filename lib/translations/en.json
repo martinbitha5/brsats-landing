@@ -1,0 +1,82 @@
+{
+  "header": {
+    "company": "African Transport Systems",
+    "companyShort": "ATS"
+  },
+  "hero": {
+    "title": "Baggage reconciliation everywhere",
+    "subtitle": "Baggage management and reconciliation system for air transport",
+    "description": "Looking for a modern and efficient solution for baggage management and reconciliation in your airline? BRSATS is a customizable mobile and web application, location-independent and offline-capable for iOS and Android that revolutionizes baggage management in our partner airports (Kinshasa, Kisangani, Goma, Lubumbashi, Kolwezi, Kananga, Mbuji-Mayi, Gemena, Mbandaka)!",
+    "watchVideo": "Click here to watch the video.",
+    "learnMore": "Learn more..."
+  },
+  "features": {
+    "title": "Features",
+    "items": [
+      {
+        "title": "Replaces conventional systems",
+        "description": "BRSATS is a modern, wireless, easy-to-use, operating system-independent and cost-effective alternative to traditional baggage management systems. Baggage reconciliation and tracking are performed without any technical effort."
+      },
+      {
+        "title": "Anytime, anywhere",
+        "description": "Intelligent cloud services synchronize data between target systems, documents or databases. This works independently of your location, even in different airports, facilities or countries. With full offline support."
+      },
+      {
+        "title": "For all systems",
+        "description": "Supported systems: desktop applications (Windows/macOS), databases accessible via ODBC (e.g. Microsoft Access™, SQL Server, SQL Express, Oracle, etc.), Microsoft Word, Microsoft Excel, Google Sheets, airport management systems (AODB) and custom API integrations."
+      }
+    ]
+  },
+  "services": {
+    "title": "BRSATS Features",
+    "subtitle": "BRSATS offers a complete and modern solution for baggage reconciliation in air transport. Discover the features that make BRSATS the reference tool for baggage management.",
+    "items": [
+      {
+        "title": "Barcode scanning",
+        "description": "Fast and accurate scanning of baggage barcodes directly from your smartphone. Compatible with all standard barcode formats (Code 128, EAN, QR Code, etc.)."
+      },
+      {
+        "title": "Real-time reconciliation",
+        "description": "Reconcile baggage in real-time with instant synchronization. Track the status of each bag (loaded, in transit, unloaded) in real-time."
+      },
+      {
+        "title": "Tracking and location",
+        "description": "Track each bag through all stages of its journey. Quickly locate missing or misplaced bags thanks to complete history."
+      },
+      {
+        "title": "Cloud synchronization",
+        "description": "All data is automatically synchronized to the cloud. Access your information from anywhere, even offline with deferred synchronization."
+      },
+      {
+        "title": "Reports and statistics",
+        "description": "Generate detailed reports and statistics on your reconciliation operations. Export data in Excel, PDF or CSV format for your analysis."
+      },
+      {
+        "title": "Multi-user",
+        "description": "Manage multiple users with different access levels. Work as a team with real-time synchronization between all devices."
+      }
+    ]
+  },
+  "readyToUse": {
+    "title": "Ready to use in a few steps",
+    "description": "Install the BRSATS application on your smartphone and start reconciling your baggage in minutes.",
+    "appStore": "Download on",
+    "googlePlay": "Get it on",
+    "pricing": "BRSATS pricing information.",
+    "discover": "Discover BRSATS",
+    "videoDescription": "The BRSATS application allows you to reconcile baggage in real-time directly from your smartphone. Scanned data is synchronized in real-time, enabling precise and efficient tracking of all baggage."
+  },
+  "footer": {
+    "description": "Baggage reconciliation system for air transport.",
+    "trackBaggage": "Track my baggage",
+    "contact": "Contact",
+    "technicalSupport": "Technical Support",
+    "airports": "Our Airports",
+    "information": "Information",
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "rights": "All rights reserved."
+  }
+}
+

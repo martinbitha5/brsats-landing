@@ -1,0 +1,82 @@
+{
+  "header": {
+    "company": "African Transport Systems",
+    "companyShort": "ATS"
+  },
+  "hero": {
+    "title": "Réconciliation de bagages partout",
+    "subtitle": "Système de gestion et de réconciliation de bagages pour le transport aérien",
+    "description": "Vous recherchez une solution moderne et efficace pour la gestion et la réconciliation des bagages dans votre compagnie aérienne ? BRSATS est une application mobile et web personnalisable, indépendante de l'emplacement et fonctionnelle hors ligne pour iOS et Android qui révolutionne la gestion des bagages dans nos aéroports partenaires (Kinshasa, Kisangani, Goma, Lubumbashi, Kolwezi, Kananga, Mbuji-Mayi, Gemena, Mbandaka) !",
+    "watchVideo": "Cliquez ici pour visionner la vidéo.",
+    "learnMore": "En savoir plus..."
+  },
+  "features": {
+    "title": "Caractéristiques",
+    "items": [
+      {
+        "title": "Remplace les systèmes conventionnels",
+        "description": "BRSATS est une alternative moderne, sans fil, simple d'utilisation, indépendante du système d'exploitation et économique aux systèmes de gestion de bagages traditionnels. La réconciliation et le suivi des bagages sont effectués sans aucun effort technique."
+      },
+      {
+        "title": "N'importe quand et n'importe où",
+        "description": "Les services cloud intelligents synchronisent les données entre les systèmes cibles, documents ou bases de données. Cela fonctionne indépendamment de votre emplacement, même dans différents aéroports, installations ou pays. Avec support offline complet."
+      },
+      {
+        "title": "Pour tous les systèmes",
+        "description": "Systèmes supportés : applications de bureau (Windows/macOS), bases de données accessibles via ODBC (par ex. Microsoft Access™, SQL Server, SQL Express, Oracle, etc.), Microsoft Word, Microsoft Excel, Google Sheets, systèmes de gestion aéroportuaires (AODB) et intégrations API personnalisées."
+      }
+    ]
+  },
+  "services": {
+    "title": "Fonctionnalités BRSATS",
+    "subtitle": "BRSATS offre une solution complète et moderne pour la réconciliation de bagages dans le transport aérien. Découvrez les fonctionnalités qui font de BRSATS l'outil de référence pour la gestion des bagages.",
+    "items": [
+      {
+        "title": "Scan de codes-barres",
+        "description": "Scan rapide et précis des codes-barres de bagages directement depuis votre smartphone. Compatible avec tous les formats de codes-barres standards (Code 128, EAN, QR Code, etc.)."
+      },
+      {
+        "title": "Réconciliation en temps réel",
+        "description": "Réconciliez les bagages en temps réel avec synchronisation instantanée. Suivez le statut de chaque bagage (chargé, en transit, déchargé) en direct."
+      },
+      {
+        "title": "Suivi et localisation",
+        "description": "Suivez chaque bagage à travers toutes les étapes de son parcours. Localisez rapidement les bagages manquants ou égarés grâce à l'historique complet."
+      },
+      {
+        "title": "Synchronisation cloud",
+        "description": "Toutes les données sont automatiquement synchronisées dans le cloud. Accédez à vos informations depuis n'importe où, même en mode hors ligne avec synchronisation différée."
+      },
+      {
+        "title": "Rapports et statistiques",
+        "description": "Générez des rapports détaillés et des statistiques sur vos opérations de réconciliation. Exportez les données au format Excel, PDF ou CSV pour vos analyses."
+      },
+      {
+        "title": "Multi-utilisateurs",
+        "description": "Gérez plusieurs utilisateurs avec des niveaux d'accès différents. Travaillez en équipe avec synchronisation en temps réel entre tous les appareils."
+      }
+    ]
+  },
+  "readyToUse": {
+    "title": "Prêt à l'emploi en quelques étapes",
+    "description": "Installez l'application BRSATS sur votre smartphone et commencez à réconcilier vos bagages en quelques minutes.",
+    "appStore": "Télécharger dans",
+    "googlePlay": "Disponible sur",
+    "pricing": "Informations sur les prix de BRSATS.",
+    "discover": "Découvrez BRSATS",
+    "videoDescription": "L'application BRSATS permet de réconcilier les bagages en temps réel directement depuis votre smartphone. Les données scannées sont synchronisées en temps réel, permettant un suivi précis et efficace de tous les bagages."
+  },
+  "footer": {
+    "description": "Système de réconciliation de bagages pour le transport aérien.",
+    "trackBaggage": "Suivre mon bagage",
+    "contact": "Contact",
+    "technicalSupport": "Support technique",
+    "airports": "Nos Aéroports",
+    "information": "Informations",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "rights": "Tous droits réservés."
+  }
+}
+
