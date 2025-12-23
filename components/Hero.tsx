@@ -5,35 +5,35 @@ export default function Hero({ locale = 'fr' }: { locale?: Locale }): JSX.Elemen
   const t = getTranslations(locale)
   
   return (
-    <section className="bg-secondary-dark text-white py-20">
-      <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">
+    <section className="bg-secondary-dark text-white py-8 sm:py-12 md:py-20">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="grid md:grid-cols-2 gap-8 sm:gap-12 items-center">
+          <div className="order-2 md:order-1">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 md:mb-6 leading-tight">
               {t.hero.title}
             </h1>
-            <h2 className="text-xl sm:text-2xl mb-4 md:mb-6 text-blue-200">
+            <h2 className="text-lg sm:text-xl md:text-2xl mb-3 sm:mb-4 md:mb-6 text-blue-200 leading-snug">
               {t.hero.subtitle}
             </h2>
-            <p className="text-base md:text-lg mb-6 md:mb-8 text-gray-200 leading-relaxed">
-              {t.hero.description}
-              <span className="block mt-2">{t.hero.watchVideo}</span>
-            </p>
+            <div className="text-sm sm:text-base md:text-lg mb-4 sm:mb-6 md:mb-8 text-gray-200 leading-relaxed space-y-2">
+              <p>{t.hero.description}</p>
+              <p className="text-blue-200 font-medium">{t.hero.watchVideo}</p>
+            </div>
             <a 
               href="#fonctionnalites" 
-              className="inline-flex items-center space-x-2 bg-green-600 hover:bg-green-700 text-white px-6 md:px-8 py-3 md:py-4 rounded-lg font-semibold text-base md:text-lg transition-colors w-full sm:w-auto justify-center"
+              className="inline-flex items-center space-x-2 bg-green-600 hover:bg-green-700 text-white px-5 sm:px-6 md:px-8 py-2.5 sm:py-3 md:py-4 rounded-lg font-semibold text-sm sm:text-base md:text-lg transition-colors w-full sm:w-auto justify-center shadow-lg hover:shadow-xl"
               aria-label={t.hero.learnMore}
             >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <svg className="w-5 h-5 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               <span>{t.hero.learnMore}</span>
             </a>
           </div>
           
-          <div className="relative mt-8 md:mt-0">
+          <div className="relative mt-6 sm:mt-8 md:mt-0 order-1 md:order-2">
             {/* Phone Mockup */}
-            <div className="relative mx-auto max-w-xs sm:max-w-sm">
+            <div className="relative mx-auto max-w-[280px] sm:max-w-xs md:max-w-sm">
               {/* Phone Frame */}
               <div className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-[3rem] p-3 shadow-2xl">
                 {/* Notch */}

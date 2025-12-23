@@ -34,6 +34,11 @@ export default function LocaleLayout({
 }) {
   return (
     <html lang={params.locale}>
+      <head>
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+        <link rel="apple-touch-icon" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+      </head>
       <body className="antialiased">{children}</body>
     </html>
   )

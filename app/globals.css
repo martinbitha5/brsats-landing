@@ -24,6 +24,16 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Amélioration du responsive pour les petits écrans */
+@media (max-width: 640px) {
+  body {
+    font-size: 14px;
+  }
 }
 
 /* Focus visible pour l'accessibilité */
