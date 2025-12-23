@@ -2,6 +2,10 @@
 
 Page d'accueil pour BRSATS (Baggage Reconciliation System) développée pour **African Transport Systems**.
 
+🌐 **Multilingue** : Français et Anglais  
+🚀 **Prêt pour la production** : Optimisé et responsive  
+📱 **Mobile-first** : Design adaptatif pour tous les appareils
+
 ## À propos
 
 BRSATS est un système de réconciliation de bagages développé pour African Transport Systems, un groupe de handling aéroportuaire opérant dans plusieurs aéroports de la RDC (Kinshasa, Kisangani, Goma, Lubumbashi, Kolwezi, Kananga, Mbuji-Mayi, Gemena, Mbandaka).
